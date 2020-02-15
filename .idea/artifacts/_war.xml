@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="图书管理系统:war">
+    <output-path>$PROJECT_DIR$/../../数据库课设/图书管理系统/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>图书管理系统</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ssm.war">
+      <element id="artifact" artifact-name="图书管理系统:war exploded" />
+    </root>
+  </artifact>
+</component>

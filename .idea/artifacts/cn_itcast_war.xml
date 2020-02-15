@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cn.itcast:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cn.itcast</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cn.itcast.war">
+      <element id="artifact" artifact-name="cn.itcast:war exploded" />
+    </root>
+  </artifact>
+</component>
